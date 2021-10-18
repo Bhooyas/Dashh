@@ -7,7 +7,7 @@ Dash is a vaporwave themed indie game made with Unity.
 
 
 ## Screenshot:
-![uhh](Images/new.png)
+![uhh](Images/tree/master/new.png)
 
 ## Installation 
 
@@ -15,7 +15,7 @@ Dash is a vaporwave themed indie game made with Unity.
 git clone https://github/com/exebo/Dash.git
 ```
 
-![alt text](Images/Capture.png)
+![alt text](Images/tree/master/Capture.png)
 
 ## Tools used:
 * Visual studio (IDE)
