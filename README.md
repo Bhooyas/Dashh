@@ -1,6 +1,6 @@
 # Dash 3D
 
-![GitHub license](https://github/com/exebo/Dash/LICENSE.txt)
+![GitHub license](https://github.com/exebo/Dashh/blob/master/LICENSE.txt)
 ![Jetlight studio](https://img.shields.io/badge/Made%20by-Jetlight%20studio-blue.svg?color=082544)
 
 Dash is a vaporwave themed indie game made with Unity. 
