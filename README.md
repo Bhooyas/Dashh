@@ -1,21 +1,24 @@
 # Dash 3D
 
-![GitHub license](https://github.com/exebo/Dashh/blob/master/LICENSE.txt)
+![exebot - dashh](https://img.shields.io/static/v1?label=exebot&message=dashh&color=purple&logo=github)](https://github.com/exebot/dashh)
+![License](https://img.shields.io/badge/License-MIT-purple)](https://github.com/exebot/dashh/LICENSE.txt)
 ![Jetlight studio](https://img.shields.io/badge/Made%20by-Jetlight%20studio-blue.svg?color=082544)
 
-Dash is a vaporwave themed indie game made with Unity. 
+Vaporwave themed indie runner made with Unity. 
 
 
 ## Screenshot:
-![uhh](https://github.com/exebo/Dashh/blob/master/Images/new.PNG)
+![uhh](https://github.com/exebot/Dashh/blob/master/Images/new.PNG)
 
 ## Installation 
 
 ``` cd file/path
-git clone https://github/com/exebo/Dash.git
+git clone https://github/com/exebot/Dash.git
 ```
 
-![alt text](https://github.com/exebo/Dashh/blob/master/Images/Capture.PNG)
+<p align="center">
+![alt text](https://github.com/exebot/Dashh/blob/master/Images/Capture.PNG)
+</p>
 
 ## Tools used:
 * Visual studio (IDE)
@@ -50,7 +53,7 @@ If youre interested in contributing, these are the proposed features :
 - Pillars are cloned constantly 
     - Object pool is not really implemented as pillars are cloned constantly 
     - Pause the spawning coroutine?
-        - Find the spawner in [GameManager](https://github.com/exebo/Dash/Assets/Scripts/GameManager)
+        - Find the spawner in [GameManager](https://github.com/exebot/Dash/Assets/Scripts/GameManager)
 
 ## License
 
@@ -60,7 +63,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Amartya Mannava - amartyamanava@gmail.com
-Project Link: [Dash-Unity](https://github.com/exebo/Dash)
+Project Link: [Dash-Unity](https://github.com/exebot/Dash)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
