@@ -1,7 +1,7 @@
 # Dash 3D
 
-![rootwipe - Dashh](https://img.shields.io/static/v1?label=exebot&message=dashh&color=purple&logo=github)]
-![License](https://img.shields.io/badge/License-MIT-purple)](https://github.com/exebot/dashh/LICENSE.txt)
+[![rootwipe - Dashh](https://img.shields.io/static/v1?label=rootwipe&message=Dashh&color=blueviolet&logo=github)]
+[![License](https://img.shields.io/badge/License-MIT-blueviolet)]
 ![Jetlight studio](https://img.shields.io/badge/Made%20by-Jetlight%20studio-blue.svg?color=082544)
 
 Vaporwave themed indie runner made with Unity. 
@@ -16,9 +16,9 @@ Vaporwave themed indie runner made with Unity.
 git clone https://github/com/rootwipe/Dashh.git
 ```
 
-<p align="center">
+
 ![alt text](https://github.com/rootwipe/Dashh/blob/master/Images/Capture.PNG)
-</p>
+
 
 ## Tools used:
 * Visual studio (IDE)
@@ -62,7 +62,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Amartya Mannava - amartyamanava@gmail.com
+`Amartya Mannava` - amartyamanava@gmail.com
 Project Link: [Dash-Unity](https://github.com/rootwipe/Dash)
 
 <!-- ACKNOWLEDGMENTS -->
