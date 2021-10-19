@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour {
 	public Pooler pooler;
 	public DiamondPool powerPool; 
 	public ScoreManager sm;
-    Random rand; 
+    Random rand;
+	float time= 0; 
 	
 
 	// Use this for initialization
@@ -35,6 +36,11 @@ public class GameManager : MonoBehaviour {
 
 	void Update()
     {
+		if(time<1)
+		{
+			time += Time.deltaTime;
+			return;	
+		}
 		StartCoroutine(makingPillars());
 	}
 
@@ -51,13 +57,21 @@ public class GameManager : MonoBehaviour {
 		}
 		
 			GameObject tempPillar = pooler.getObject();
-			tempPillar.transform.position = spawnPosition;
-			tempPillar.SetActive(true);
-			tempPillar.transform.SetParent(pillarHolder.transform);
-			tempPillar.GetComponent<PillarBehaviour>().cube = cube;
-			SpawnDiamond();
-			spawnPosition = new Vector3(spawnPosition.x, Random2.Range(-8, -4),
-							spawnPosition.z + Random2.Range(minDistance, maxDistance));
+			// tempPillar.transform.position = spawnPosition;
+			// tempPillar.SetActive(true);
+			if(tempPillar!= null)
+			{
+				tempPillar.transform.SetParent(pillarHolder.transform);
+				spawnPosition = tempPillar.transform.position;
+				// SpawnDiamond();
+				GameObject tempDiamond = powerPool.getObject();
+				spawnPosition.y += (tempPillar.transform.localScale.y/2) + tempDiamond.transform.localScale.y + 2;
+				tempDiamond.transform.position = spawnPosition;
+				tempDiamond.SetActive(true);
+			}
+			// tempPillar.GetComponent<PillarBehaviour>().cube = cube;
+			// spawnPosition = new Vector3(spawnPosition.x, Random2.Range(-8, -4),
+			// 				spawnPosition.z + Random2.Range(minDistance, maxDistance));
 			yield return new WaitForSeconds(3f);		
 			
 	}
@@ -86,9 +100,9 @@ public class GameManager : MonoBehaviour {
 	void SpawnDiamond()
     {
 		GameObject tempDiamond = powerPool.getObject();
+		spawnPosition.y += tempDiamond.transform.localScale.y + 1;
 		tempDiamond.transform.position = spawnPosition;
 		tempDiamond.SetActive(true);
-		Debug.Log("Diamond Spawned!!");
 
 		/*
 		if (  rand.NextDouble() <0.7)

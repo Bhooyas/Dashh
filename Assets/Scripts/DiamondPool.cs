@@ -29,7 +29,7 @@ public class DiamondPool : MonoBehaviour
     {
         foreach (GameObject obj in Pool)
         {
-            if (!obj.activeInHierarchy)
+            if (!obj.GetComponent<Renderer>().isVisible)
             {
                 return obj;
             }
